@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header, nav, article, footer{
+  width: 960px;
+  margin: auto;
+}
+nav{
+  height: 40px;
+  background-color: #555;
+}
+nav ul{
+  list-style: none;
+  margin: auto;
+  padding: 0;
+
+  height: 40px;
+  width: 500px;
+}
+.limpiar{
+  clear: both;
+}
+.logo{
+  float: left;
+}
+.red_social{
+  float: right;
+}
+
+
+nav ul li{
+  float: left;
+}
+a{
+  text-decoration: none;
+}
+nav ul li a{
+  color: #999;
+  line-height: 40px;
+
+  display: block;
+  /*ocupe todo*/
+  width: 100px;
+  text-align: center;
+}
+.active, nav ul li a:hover{
+  background-color: #000;
+  color: #fff;
+}
